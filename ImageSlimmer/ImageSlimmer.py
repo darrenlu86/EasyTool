@@ -29,7 +29,6 @@ def compress_gif(infile, outfile, target_size_kb=250, resize_ratio=0.5, max_colo
             print(f"Warning: Unable to compress {infile} to less than {target_size_kb} KB. Saving as is.")
         os.rename(temp_outfile, outfile)
 
-
 def compress_image(infile, outfile, target_size_kb=100, quality=85):
     """Attempt to compress an image to below the target size."""
     with Image.open(infile) as img:
