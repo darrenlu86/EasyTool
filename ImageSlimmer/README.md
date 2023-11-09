@@ -38,3 +38,7 @@ compress_images_in_folder(input_folder_path, output_folder_path)
 - 壓縮 GIF 時，如果無法將檔案壓縮至100KB以下，將保留壓縮後的檔案並顯示警告。
 - 壓縮過程中可能會降低圖片質量，尤其是在顯著降低分辨率或顏色數量時。
 - 調整 resize_ratio 和 max_colors 可以幫助達成不同程度的壓縮效果。
+
+## 開發者聯繫方式
+如在使用過程中遇到問題或需要技術支援，請透過以下方式聯繫開發者：
+- Website: darrenlu.com
